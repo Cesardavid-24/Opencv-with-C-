@@ -72,5 +72,5 @@ int main(int argc, char **argv)
   // Guardar la imagen en blanco y negro
   imwrite(argv[2], image);
 
-  return 0;
+  return EXIT_SUCCESS;
 }

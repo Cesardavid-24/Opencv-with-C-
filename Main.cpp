@@ -58,5 +58,6 @@ int main(int argc, char **argv)
   imshow("Imagen en Blanco y Negro", grayImage);
 
   waitKey(0);
-  return 0;
+  destroyAllWindows();
+  return EXIT_SUCCESS;
 }
